@@ -35,7 +35,7 @@ Admin Paneli: Yöneticiler, admin paneli üzerinden kullanıcıların sonuçlar�
 
 Ekran Görüntüleri
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-![Ekran görüntüsü_20240607_104700](https://github.com/bilalakb/Hastane-Otomasyonu/assets/98328978/aa47f65d-6ae7-445e-b9db-0f7e96e16de1)
+![Ekran görüntüsü_20240607_104700](https://github.com/bilalakb/Hastane_Otomasyonu/assets/98328978/aa47f65d-6ae7-445e-b9db-0f7e96e16de1)
 ![![Ekran görüntüsü_20240607_104624](https://github.com/bilalakb/Hastane-Otomasyon/assets/98328978/0bd3ac77-cf74-4c48-b829-415baef4584f)
 Ekran görüntüsü_20240505_081626](https://github.com/bilalakb/Hastane-Otomasyon/assets/98328978/6ea38460-b71e-47b4-afa2-53645c5ca4e6)
 ![Ekran görüntüsü_20240505_081649](https://github.com/bilalakb/Hastane-Otomasyon/assets/98328978/e55b562c-6edc-4793-b0b2-b2fa49ec1c3c)
