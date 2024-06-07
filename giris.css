@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 200px auto;
+    padding: 60px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Konumlandırma için container'ı relative yapalım */
+}
+
+.logo-container {
+    text-align: center; /* Resmi ortalamak için */
+    position: absolute;
+    top: 20px;
+    left: 50%; /* Orta konuma getirmek için */
+    transform: translateX(-50%); /* Orta konuma getirmek için */
+    z-index: 999; /* Diğer içeriğin üzerine çıkması için */
+}
+
+.logo {
+    max-width: 400px;
+    text-align: center;
+}
+
+
+
+h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 50px); /* Burada değişiklik yaptık */
+    padding: 8px 30px 8px 40px; /* Sol taraftaki alanı ayarlamak için */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.user-icon, .lock-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    z-index: 1;
+}
+
+.lock-icon {
+    color: #777;
+}
+
+/* Şifreyi göster/gizle ikonu için */
+.show-password-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+}
+
+button {
+    margin-left: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Yeşil */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Koyu Yeşil */
+}
+
+.register-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #007bff; /* Mavi */
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}

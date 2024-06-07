@@ -1,0 +1,58 @@
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Tablo stil */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Tablo başlığı stil */
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Tablo hücreleri stil */
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Alternatif satır arka planı */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover efekti */
+tr:hover {
+    background-color: #ddd;
+}
+
+button[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #5b0606;
+}
+
+a{
+    text-decoration: none;
+}
